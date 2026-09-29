@@ -6,35 +6,33 @@
 body {
     text-align: center;
     background-repeat: no-repeat;
-    background: url("../imagenes_video/fondoModificada.jpg");
-    background-size: 100%, 100%;
+    background: url("fondoModificada.jpg");
+    background-size: 100% 100%;
     font-family: sans-serif;
     background-attachment: fixed;
 }
 
 #agrupar {
     width: 960px;
-    margin: 15px  auto;
+    margin: 15px auto;
 }
 
 section h1, footer h1, nav a, aside h3 {
-    font-family: Candara , serif;
+    font-family: Candara, serif;
     font-weight: normal;
     text-transform: uppercase;
 }
 
-/*cabecera*/
 article p { 
-    font-family: Calibri , serif;
-    color:  #000000;
+    font-family: Calibri, serif;
+    color: #000000;
     font-weight: normal;
     font-size: 1.3em;
     text-align: left;
 }
 
-
 header h1 {
-    font-family: ‘Comic Sans MS’, cursive; 
+    font-family: 'Comic Sans MS', cursive; 
     font-size: 6em;
     font-weight: normal;
     text-shadow: 2px 2px black;
@@ -42,12 +40,12 @@ header h1 {
 }
 
 header h2 {
-    font-family: ‘Bookman Old Style’, serif; 
-    color:  #000000;
+    font-family: 'Bookman Old Style', serif; 
+    color: #000000;
     font-size: 1.5em; 
 }
 
-#cabecera {  
+#cabecera {   
     background-position: center;
     padding: 80px;
     border-radius: 10px;
@@ -56,7 +54,6 @@ header h2 {
     margin-bottom: 25px;
 }
 
-/* Navegación */
 nav {
     padding: 5px 15px;  
 }
@@ -81,14 +78,13 @@ nav a:hover {
     background-color: #003AFE;
     color: #ffffff;
     border-bottom: 3px;
-    outline: a;
+    outline: none;
 }
 
-/* Cuerpo */
 section {
-width: 660px; 
-margin: 20px;
-float: left;
+    width: 660px; 
+    margin: 20px;
+    float: left;
 } 
 
 article, aside {
@@ -96,9 +92,9 @@ article, aside {
     float: left;
 }
 
-article h2{
-padding: 10px;
-color: #0b2525;
+article h2 {
+    padding: 10px;
+    color: #0b2525;
 }
 
 article {
@@ -112,33 +108,32 @@ article {
 article p {
     font-size: 1.3em;
     text-align: left;
-    font-family: ‘Arial Narrow’, sans-serif; 
+    font-family: 'Arial Narrow', sans-serif; 
     color: #0b2525;
 }
 
-/*columna*/
 aside {
     float: left;
     width: 220px;
     margin: 20px 0px;
     padding: 20px;
-    background: #75C9C8 ;
+    background: #75C9C8;
     box-shadow: 6px 6px 6px white;
     border-radius: 10px;
-    font-family: Comic Sans MS; 
+    font-family: 'Comic Sans MS', cursive; 
     text-align: center;
     color: #000000;
 }
 
 aside h2 {
     padding: 8px 15px; 
-    font-family:  ‘Arial Narrow’, sans-serif; 
+    font-family: 'Arial Narrow', sans-serif; 
     font-size: 1.5em;
     color: #0b2525;
 }
 
 aside h3 {
-    font-family: ‘Arial Narrow’, sans-serif; 
+    font-family: 'Arial Narrow', sans-serif; 
     font-size: 1.2em;
 }
 
@@ -150,22 +145,16 @@ aside div {
 }
 
 aside p {
-    font-family: ‘Arial Narrow’, sans-serif; 
+    font-family: 'Arial Narrow', sans-serif; 
     font-size: 1.3em;
     color: #0b2525;
 }
 
-#zumba {
+#zumba, #suplementos {
     max-width: 100%;
-    max-height: 100%
+    max-height: 100%;
 }
 
-#suplementos {
-    max-width: 100%;
-    max-height: 100%
-}
-
-/* Pie de página */
 footer {
     clear: both;
     text-align: center;
@@ -179,102 +168,90 @@ footer p {
     color: #ffffff !important;
 }
 
-/* Pagina de hazte socio */
-
 .registrarseFrm {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-  padding-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
 }
 
 .form {
-  background-color: #75C9C8;
-  width: 400px;
-  border-radius: 8px;
-  padding: 20px 40px;
+    background-color: #75C9C8;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
 }
 
 .title {
-  font-size: 50px;
-  margin-bottom: 50px;
-  color: #000000;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #000000;
 }
 
 .inputContainer {
-  position: relative;
-  height: 45px;
-  width: 90%;
-  margin-bottom: 17px;
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
 }
 
 .input {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  border: 1px solid #DADCE0;
-  border-radius: 7px;
-  font-size: 16px;
-  padding: 0 20px;
-  outline: none;
-  background: none;
-  z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
 }
 
-/* Hide the placeholder texts (a) */
-
 ::placeholder {
-  color: transparent;
+    color: transparent;
 }
 
 .label {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  padding: 0 4px;
-  background-color: #75C9C8;
-  color: #000000    ;
-  font-size: 16px;
-  transition: 0.5s;
-  z-index: 0;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: #75C9C8;
+    color: #000000;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
 }
 
 .submitBtn {
-  display: block;
-  margin-left: auto;
-  padding: 15px 30px;
-  border: none;
-  background-color: #7BB3B8;
-  color: white;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: #7BB3B8;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
 }
 
 .submitBtn:hover {
-  background-color: #1B94FF;
-  transform: translateY(-2px);
+    background-color: #1B94FF;
+    transform: translateY(-2px);
 }
 
-.input:focus + .label {
-  top: -7px;
-  left: 3px;
-  z-index: 10;
-  font-size: 14px;
-  font-weight: 600;
-  color: #003AFE;
-}
-
-.input:not(:placeholder-shown)+ .label {
-  top: -7px;
-  left: 3px;
-  z-index: 10;
-  font-size: 14px;
-  font-weight: 600;
+.input:focus + .label,
+.input:not(:placeholder-shown) + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #003AFE;
 }
 
 a:focus, input:focus, button:focus {
